@@ -105,19 +105,16 @@ button {
   cursor: pointer;
 }
 .title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--second-black-color);
 }
 .advantages h3 {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--second-black-color);
 }
 .advantages .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--third-black-color);
@@ -129,25 +126,21 @@ button {
   color: var(--second-black-color);
 }
 .title-our-team {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--second-black-color);
 }
 .our-team .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   color: var(--third-black-color);
 }
 .prezentation .title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--second-black-color);
 }
 .prezentation p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   color: var(--third-black-color);
@@ -166,7 +159,6 @@ button {
 }
 .link-address {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -175,7 +167,6 @@ button {
 }
 .mailto-tel-ground {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--mailto-ground-color);
