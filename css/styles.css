@@ -46,6 +46,9 @@ li {
   color: var(--second-black-color);
   text-decoration: none;
 }
+.site-nav.link.current {
+  color: var(--accent-color);
+}
 .link:hover,
 .link:focus {
   color: var(--accent-color);
