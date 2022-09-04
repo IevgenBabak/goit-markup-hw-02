@@ -1,10 +1,9 @@
 body {
-  background: var(--brand-color);
+  background-color: var(--brand-color);
   color: var(--third-black-color);
   font-family: Roboto, Raleway, Arial, Verdana, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 1.71;
 }
 :root {
   --brand-color: #ffffff;
@@ -39,7 +38,7 @@ li {
 .logo:active {
   color: var(--accent-color);
 }
-.site-nav {
+.site-nav.link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -56,12 +55,15 @@ li {
 .mailto-tel-header {
   color: var(--third-black-color);
   font-weight: 500;
-  line-height: 1.14;
+
   text-decoration: none;
+}
+.mailto-tel-header.link {
+  letter-spacing: 0.02em;
 }
 /* Main */
 .hero {
-  background: var(--backgroun-footer-color);
+  background-color: var(--backgroun-footer-color);
 }
 .hero-title {
   font-weight: 900;
@@ -83,7 +85,7 @@ li {
 }
 .selection:hover,
 .selection:focus {
-  color: var(--active-color);
+  background-color: var(--active-color);
 }
 .selection:active {
   color: var(--brand-color);
@@ -117,14 +119,25 @@ li {
   background-color: var(--background-button-color);
   cursor: pointer;
 }
+.link-filter.selection:hover,
+.link-filter.selection:focus {
+  color: var(--brand-color);
+  background-color: var(--accent-color);
+}
 .title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+
   color: var(--second-black-color);
 }
 .advantages-title {
   line-height: 1.14;
+  font-size: 14px;
   color: var(--second-black-color);
+}
+.text {
+  line-height: 1.17;
 }
 .name {
   font-weight: 500;
@@ -150,6 +163,7 @@ li {
 .portfolio-title {
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--second-black-color);
 }
 .portfolio-txt {
@@ -158,7 +172,7 @@ li {
 }
 /* Footer */
 .ground {
-  background: var(--backgroun-footer-color);
+  background-color: var(--backgroun-footer-color);
 }
 .logo-ground {
   color: var(--brand-color);
@@ -167,11 +181,13 @@ li {
   font-style: normal;
 }
 .link-address {
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--brand-color);
   text-decoration: none;
 }
 .mailto-tel-ground {
+  line-height: 1.71;
   color: var(--mailto-ground-color);
   text-decoration: none;
 }
